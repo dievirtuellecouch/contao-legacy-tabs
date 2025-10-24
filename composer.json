@@ -1,0 +1,19 @@
+{
+  "name": "dievirtuellecouch/contao-legacy-tabs",
+  "description": "Contao content element: legacy TabControl backend/FE support",
+  "type": "contao-bundle",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1",
+    "contao/core-bundle": ">=5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Websailing\\TabControlBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "Websailing\\TabControlBundle\\ContaoManager\\Plugin"
+  }
+}
+

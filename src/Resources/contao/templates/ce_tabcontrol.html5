@@ -1,0 +1,15 @@
+<div class="ce tabcontrol">
+  <?php if ($this->hasItems): ?>
+    <div class="tabs">
+      <?php foreach ($this->items as $i => $it): ?>
+        <details<?= $i===0?' open':'' ?> class="tab">
+          <summary><?= $this->escapeHtml($it['title']) ?></summary>
+          <div class="tab-content"><?= $it['content'] ?></div>
+        </details>
+      <?php endforeach; ?>
+    </div>
+  <?php else: ?>
+    <p>Legacy Tabcontrol – Inhalt konnte nicht automatisch interpretiert werden.</p>
+  <?php endif; ?>
+</div>
+
