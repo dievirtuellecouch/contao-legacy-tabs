@@ -1,6 +1,6 @@
 {
   "name": "dievirtuellecouch/contao-legacy-tabs",
-  "description": "Contao content element: legacy TabControl backend/FE support",
+  "description": "Contao 5.3 content element: legacy TabControl backend/FE support",
   "type": "contao-bundle",
   "license": "proprietary",
   "require": {
